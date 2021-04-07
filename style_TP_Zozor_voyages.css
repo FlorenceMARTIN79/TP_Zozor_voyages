@@ -1,0 +1,113 @@
+@font-face 
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.svg') format('svg'),
+        url('polices/ballpark.ttf') format('truetype'),
+        url('polices/ballpark.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;           
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.svg') format('svg'),
+        url('polices/dayrom.ttf') format('truetype'),
+        url('polices/dayrom.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+
+    background-image: url('images/fond_jaune.png');
+    font-family: 'Trebuchet MS', Arial, sans serif;
+    color: rgb(24,24,24);
+}
+
+#blocpage
+{
+    width: 100%;
+    margin: auto;
+}
+
+#identite_visuelle
+{
+    display: flex;
+    flex-direction:row;
+    align-items: baseline;
+    border: 2px red solid;
+}
+
+#identite_visuelle img
+{
+    width: 60px;
+    height: 60px;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner',sans serif;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+header
+{
+    background-image: url(images/separateur.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header h2
+{
+    font-family: 'dayrom', sans serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+#ensemble_entetessnav
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#ensemble_entetessnav
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px blue solid;
+}
+
+nav a
+{
+    font-family: 'dayrom', sans serif;
+    color: rgb(24,24,24);
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    border: 2px green solid;
+}
+
+ul li
+{
+    margin-right: 15px;
+}
+
+.page_en_cours
+{
+    color: maroon;
+    text-decoration: underline;
+}
