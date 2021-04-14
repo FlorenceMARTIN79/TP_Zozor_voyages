@@ -45,6 +45,7 @@ body{
 {
     width: 60px;
     height: 60px;
+    margin-right: 10px;
 }
 
 header h1
@@ -109,7 +110,7 @@ ul li
     display: flex;
     flex-direction: row;
     border-radius: 5px;
-    box-shadow: 2px 5px 5px rgb(25,35,39);
+    box-shadow: 2px 5px 5px rgb(27, 26, 26);
     background-image: url(images/sanfrancisco.jpg);
     height: 200px;
     margin-top: 15px;
@@ -119,7 +120,7 @@ ul li
 #banniere p
 {
     display: flex;
-    background-color: rgba(25,35,39,0.9);
+    background-color: rgba(10, 14, 15, 0.8);
     color: white;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 0.8em;
@@ -147,3 +148,100 @@ ul li
     font-weight: normal;
 }
 
+section
+{
+    display: flex;
+    margin-top: 15px;
+    align-items: flex-start;
+    
+}
+
+article
+{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background: url(images/bulle.png) no-repeat right;
+}
+
+h2
+{
+    font-family: 'dayrom', sans serif;
+    font-weight: normal;
+}
+
+article p
+{
+    text-align: justify;
+    font-size: 0.8em;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+article h2
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+h2 img
+{
+    margin-right: 10px;
+}
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(112, 107, 100);
+    width: 30%;
+    margin-top: 15px;
+    color: white;
+    flex-wrap: no-wrap;
+    justify-content: baseline;
+    height:  400px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 3px rgb(73, 69, 69);
+    
+}
+
+aside h2
+{
+    font-size: 1em;
+    text-align: center;
+}
+
+#Zozorclasse
+{
+    margin: auto;
+    margin-top: 0px;
+    border: 1px black solid;
+    margin-bottom: 0px;
+}
+
+aside p
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', sans serif;
+    font-size: 0.8em;
+    text-align: justify;
+    font-weight: normal;
+    
+}
+
+.Tweet
+{
+    border: 2px red solid;
+}
+
+.reseaux 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20 px;
+}
