@@ -23,7 +23,7 @@
 body{
 
     background-image: url('images/fond_jaune.png');
-    font-family: 'Trebuchet MS', Arial, sans serif;
+    font-family: "Trebuchet MS", Arial, sans serif;
     color: rgb(24,24,24);
 }
 
@@ -50,7 +50,7 @@ body{
 
 header h1
 {
-    font-family: 'BallparkWeiner',sans serif;
+    font-family: "BallparkWeiner",sans serif;
     font-size: 2.5em;
     font-weight: normal;
 }
@@ -67,7 +67,7 @@ header
 
 header h2
 {
-    font-family: 'dayrom', sans serif;
+    font-family: "dayrom", sans serif;
     font-size: 1.1em;
     font-weight: normal;
     margin-top: 0px;
@@ -81,7 +81,7 @@ header h2
 
 nav a
 {
-    font-family: 'dayrom', sans serif;
+    font-family: "dayrom", sans serif;
     color: rgb(24,24,24);
     text-decoration: none;
     font-size: 1.3em;
@@ -166,7 +166,7 @@ article
 
 h2
 {
-    font-family: 'dayrom', sans serif;
+    font-family: "dayrom", sans serif;
     font-weight: normal;
 }
 
@@ -195,11 +195,10 @@ aside
 {
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 33%;
     margin-top: 15px;
     color: white;
-    flex-wrap: no-wrap;
-    justify-content: baseline;
+    flex-wrap: nowrap;
     height:  400px;
 }
 
@@ -240,7 +239,7 @@ aside
     margin-left: 10px;
     margin-top: 10px;
     margin-right: 10px;
-    font-family: 'Trebuchet MS', sans serif;
+    font-family: "Trebuchet MS", sans serif;
     font-size: 0.8em;
     text-align: justify;
     font-weight: normal;
@@ -252,17 +251,17 @@ aside
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-right: 20 px;
+   margin-right: 10px;
 }
 
 footer
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     background-image: url(images/separateur.png);
     background-position: top;
     background-repeat: repeat-x;
+    justify-content: center;
 } 
 
 footer div
@@ -277,7 +276,18 @@ footer div
 
 footer h2
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
+}
+
+.Tweet p
+{
+    font-size: 0.8em;
+}
+
+.Photos
+{
+    width: 37%;
+    padding-left: 20px;
 }
 
 #photos_voyages
@@ -291,17 +301,7 @@ footer h2
 #photos_voyages img
 {
     border: 1px black solid;
-}
-
-
-
-.liste_amis
-{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    border-color: red;
-    justify-content:
+    margin-left: 3px;
 }
 
 .Amis
@@ -310,3 +310,39 @@ footer h2
     flex-direction: column;
 }
 
+.Amis h2
+{
+    padding-left: 20px;
+}
+
+.liste_amis
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: rgb(189, 83, 1);
+    font-size: 0.8em;
+    margin-top: 1px;
+}
+
+.liste_amis ul
+{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: flex-end;
+    padding-left: 15px;
+}
+
+ul li
+{
+     width: 100%;
+}
+
+li a
+{
+    color:rgb(126, 56, 2);
+    font-size: 1em;
+    text-decoration:none;   
+    margin-left: 5px;
+}
