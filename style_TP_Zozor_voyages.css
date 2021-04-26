@@ -1,16 +1,14 @@
-@font-face 
-{
+@font-face {
     font-family: 'BallparkWeiner';
     src: url('polices/ballpark.eot');
     src: url('polices/ballpark.svg') format('svg'),
         url('polices/ballpark.ttf') format('truetype'),
         url('polices/ballpark.woff') format('woff');
     font-weight: normal;
-    font-style: normal;           
+    font-style: normal;
 }
 
-@font-face
-{
+@font-face {
     font-family: 'Dayrom';
     src: url('polices/dayrom.eot');
     src: url('polices/dayrom.svg') format('svg'),
@@ -20,43 +18,38 @@
     font-style: normal;
 }
 
-body{
+body {
 
     background-image: url('images/fond_jaune.png');
     font-family: "Trebuchet MS", Arial, sans serif;
-    color: rgb(24,24,24);
+    color: rgb(24, 24, 24);
 }
 
-#blocpage
-{
+#blocpage {
     width: 900px;
     margin: auto;
 }
 
-#identite_visuelle
-{
+#identite_visuelle {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: baseline;
     height: 70px;
 }
 
-#identite_visuelle img
-{
+#identite_visuelle img {
     width: 60px;
     height: 60px;
     margin-right: 10px;
 }
 
-header h1
-{
-    font-family: "BallparkWeiner",sans serif;
+header h1 {
+    font-family: "BallparkWeiner", sans serif;
     font-size: 2.5em;
     font-weight: normal;
 }
 
-header
-{
+header {
     background-image: url(images/separateur.png);
     background-position: bottom;
     background-repeat: repeat-x;
@@ -65,48 +58,41 @@ header
     align-items: flex-end;
 }
 
-header h2
-{
+header h2 {
     font-family: "dayrom", sans serif;
     font-size: 1.1em;
     font-weight: normal;
     margin-top: 0px;
 }
 
-#ensemble_entetessnav
-{
+#ensemble_entetessnav {
     display: flex;
     flex-direction: column;
 }
 
-nav a
-{
+nav a {
     font-family: "dayrom", sans serif;
-    color: rgb(24,24,24);
+    color: rgb(24, 24, 24);
     text-decoration: none;
     font-size: 1.3em;
 }
 
-nav ul
-{
+nav ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    }
+}
 
-ul li
-{
+ul li {
     margin-right: 15px;
 }
 
-.page_en_cours
-{
+.page_en_cours {
     color: rgb(177, 2, 2);
     text-decoration: underline;
 }
 
-#banniere
-{
+#banniere {
     display: flex;
     flex-direction: row;
     border-radius: 5px;
@@ -117,8 +103,7 @@ ul li
     align-items: flex-end;
 }
 
-#banniere p
-{
+#banniere p {
     display: flex;
     background-color: rgba(10, 14, 15, 0.8);
     color: white;
@@ -133,8 +118,7 @@ ul li
     border-radius: 0px 0px 5px 5px;
 }
 
-#banniere a
-{
+#banniere a {
     background: url(images/fond_degraderouge.png);
     height: 50%;
     margin: auto;
@@ -148,75 +132,65 @@ ul li
     font-weight: normal;
 }
 
-main
-{
+main {
     display: flex;
     margin-top: 15px;
     align-items: flex-start;
-    
+
 }
 
-article
-{
+article {
     display: flex;
     flex-direction: column;
     width: 75%;
-    
+
 }
 
-h2
-{
+h2 {
     font-family: "dayrom", sans serif;
     font-weight: normal;
 }
 
-article p
-{
+article p {
     text-align: justify;
     font-size: 0.8em;
     margin-right: 10px;
     margin-top: 5px;
 }
 
-article h2
-{
+article h2 {
     display: flex;
     align-items: center;
     font-size: 1.2em;
     margin-top: 20px;
 }
 
-h2 img
-{
+h2 img {
     margin-right: 10px;
 }
 
-aside
-{
+aside {
     display: flex;
     flex-direction: row;
     width: 33%;
     margin-top: 15px;
     color: white;
     flex-wrap: nowrap;
-    height:  400px;
+    height: 400px;
 }
 
-#layout
-{
+#layout {
     display: flex;
     flex-direction: column;
     padding-top: 70px;
 }
 
-#titre_aside
-{
+#titre_aside {
     font-size: 1em;
     text-align: center;
 }
 
-#contenuAside
-{
+#contenuAside {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,17 +199,15 @@ aside
     border-radius: 7px;
 }
 
-#Zozorclasse
-{
+#Zozorclasse {
     margin: auto;
     margin-top: 0px;
     border: 1px black solid;
     margin-bottom: 0px;
-    
+
 }
 
-#contenuAside p
-{
+#contenuAside p {
     margin-left: 10px;
     margin-top: 10px;
     margin-right: 10px;
@@ -243,80 +215,68 @@ aside
     font-size: 0.8em;
     text-align: justify;
     font-weight: normal;
-    
+
 }
 
-.reseaux 
-{
+.reseaux {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-   margin-right: 10px;
+    margin-right: 10px;
 }
 
-footer
-{
+footer {
     display: flex;
     flex-direction: row;
     background-image: url(images/separateur.png);
     background-position: top;
     background-repeat: repeat-x;
     justify-content: center;
-} 
+}
 
-footer div
-{
+footer div {
     margin-top: 15px;
 }
 
-#top
-{
+#top {
     position: absolute;
 }
 
-footer h2
-{
+footer h2 {
     font-size: 1.1em;
 }
 
-.Tweet p
-{
+.Tweet p {
     font-size: 0.8em;
 }
 
-.Photos
-{
+.Photos {
     width: 37%;
     padding-left: 20px;
 }
 
-#photos_voyages
-{
+#photos_voyages {
     margin-right: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-#photos_voyages img
-{
+#photos_voyages img {
     border: 1px black solid;
     margin-left: 3px;
 }
 
-.Amis
-{
+.Amis {
     display: flex;
     flex-direction: column;
 }
 
-.Amis h2
-{
+.Amis h2 {
     padding-left: 20px;
 }
 
-.liste_amis
-{
+.liste_amis {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -325,8 +285,7 @@ footer h2
     margin-top: 1px;
 }
 
-.liste_amis ul
-{
+.liste_amis ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -334,15 +293,65 @@ footer h2
     padding-left: 15px;
 }
 
-ul li
-{
-     width: 100%;
+ul li {
+    width: 100%;
 }
 
-li a
-{
-    color:rgb(126, 56, 2);
+li a {
+    color: rgb(126, 56, 2);
     font-size: 1em;
-    text-decoration:none;   
+    text-decoration: none;
     margin-left: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    #banniere {
+        display: none
+    }
+
+    #blocpage {
+        width: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    #layout img {
+        display: none;
+    }
+
+    aside {
+        align-items: center;
+        width: 100%;
+    }
+
+    aside section {
+        width: 100%;
+    }
+
+    .reseaux {
+        width: 50%;
+        align-self: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #top {
+        display: none;
+    }
 }
